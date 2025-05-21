@@ -11,6 +11,7 @@ type CardProps = {
   href?: string;
   tags?: string[];
   className?: string;
+  children?: React.ReactNode;
 };
 
 const Card = ({
@@ -20,6 +21,7 @@ const Card = ({
   href,
   tags = [],
   className = '',
+  children,
 }: CardProps) => {
   const cardContent = (
     <>
@@ -52,6 +54,7 @@ const Card = ({
         )}
         
         <p className="text-sm sm:text-base text-gray-600 mb-4">{description}</p>
+        {children}
       </div>
     </>
   );
