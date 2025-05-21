@@ -6,8 +6,27 @@ import Section from '@/components/ui/Section';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 
+// Define tool item type
+type ToolItem = {
+  id: number;
+  title: string;
+  description: string;
+  imageSrc: string;
+  tags: string[];
+  href: string;
+  demoUrl: string;
+};
+
+// Define tool categories
+type ToolCategory = 'NLP Tools' | 'Vision Tools' | 'Data Tools';
+
+// Define tools data type
+type ToolsDataType = {
+  [key in ToolCategory]: ToolItem[];
+};
+
 // Sample tools data with categories
-const toolsData = {
+const toolsData: ToolsDataType = {
   'NLP Tools': [
     {
       id: 1,
@@ -80,12 +99,12 @@ const toolsData = {
 };
 
 export default function ToolsPage() {
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState<ToolCategory | null>(null);
   
-  const allCategories = Object.keys(toolsData);
+  const allCategories = Object.keys(toolsData) as ToolCategory[];
   
   const filteredTools = activeCategory 
-    ? { [activeCategory]: toolsData[activeCategory] }
+    ? { [activeCategory]: toolsData[activeCategory] } as ToolsDataType
     : toolsData;
 
   return (
