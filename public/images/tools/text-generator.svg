@@ -1,0 +1,41 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F1F5F9"/>
+  
+  <!-- Text Generator UI Frame -->
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="50" y="50" width="300" height="40" rx="10 10 0 0" fill="#3B82F6"/>
+  <circle cx="75" cy="70" r="6" fill="white"/>
+  <circle cx="95" cy="70" r="6" fill="white"/>
+  <circle cx="115" cy="70" r="6" fill="white"/>
+  
+  <!-- Text Input Area -->
+  <rect x="70" y="110" width="260" height="40" rx="5" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="90" y="135" font-family="monospace" font-size="14" fill="#3B82F6">Write your prompt here...</text>
+  
+  <!-- Generated Text Area -->
+  <rect x="70" y="170" width="260" height="60" rx="5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  
+  <!-- Text Lines -->
+  <rect x="80" y="180" width="240" height="4" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="190" width="200" height="4" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="200" width="220" height="4" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="210" width="180" height="4" rx="2" fill="#BFDBFE"/>
+  
+  <!-- Generate Button -->
+  <rect x="150" y="240" width="100" height="30" rx="15" fill="#3B82F6"/>
+  <text x="200" y="260" text-anchor="middle" font-family="Arial" font-size="14" fill="white" font-weight="bold">Generate</text>
+  
+  <!-- AI Brain Icon -->
+  <circle cx="40" cy="40" r="15" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M33 37C33 37 37 33 40 33C43 33 47 37 47 37" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M33 43C33 43 37 47 40 47C43 47 47 43 47 43" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M37 33L37 40" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M43 33L43 40" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M350 40L352 45L357 47L352 49L350 54L348 49L343 47L348 45L350 40Z" fill="#3B82F6"/>
+  <path d="M330 270L332 275L337 277L332 279L330 284L328 279L323 277L328 275L330 270Z" fill="#3B82F6"/>
+</svg> 

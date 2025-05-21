@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#EFF6FF"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="85" r="45" fill="#BFDBFE" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Face Features -->
+  <circle cx="85" cy="75" r="5" fill="#3B82F6"/>
+  <circle cx="115" cy="75" r="5" fill="#3B82F6"/>
+  <path d="M85 100C85 100 100 110 115 100" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Hair (Professional style) -->
+  <path d="M60 85C60 85 55 50 80 45C105 40 125 45 140 70V95C140 95 130 65 100 65C70 65 60 95 60 95V85Z" fill="#3B82F6"/>
+  <path d="M140 95C140 95 145 105 145 115" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M60 95C60 95 55 105 55 115" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Body/Lab Coat -->
+  <path d="M55 150C55 120 70 120 100 120C130 120 145 120 145 150" fill="#DBEAFE"/>
+  <path d="M90 120V150" stroke="#93C5FD" stroke-width="2"/>
+  <path d="M110 120V150" stroke="#93C5FD" stroke-width="2"/>
+  
+  <!-- Research Elements -->
+  <circle cx="130" cy="140" r="10" fill="#3B82F6" stroke="white" stroke-width="1"/>
+  <path d="M127 140L133 140" stroke="white" stroke-width="1"/>
+  <path d="M130 137L130 143" stroke="white" stroke-width="1"/>
+  
+  <!-- Glasses -->
+  <path d="M75 75H95" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M105 75H125" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="85" cy="75" r="10" stroke="#3B82F6" stroke-width="1.5" fill="none"/>
+  <circle cx="115" cy="75" r="10" stroke="#3B82F6" stroke-width="1.5" fill="none"/>
+</svg> 

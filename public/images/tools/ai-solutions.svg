@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Brain Outline -->
+  <path d="M200 70C166.863 70 140 96.8629 140 130C140 163.137 166.863 190 200 190C233.137 190 260 163.137 260 130C260 96.8629 233.137 70 200 70Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Brain Details - Lobes -->
+  <path d="M200 70C200 70 180 90 180 130C180 170 200 190 200 190" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M200 70C200 70 220 90 220 130C220 170 200 190 200 190" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Brain Connections - Left -->
+  <path d="M160 100C160 100 175 110 175 130C175 150 160 160 160 160" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M170 90C170 90 180 105 180 130C180 155 170 170 170 170" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Brain Connections - Right -->
+  <path d="M240 100C240 100 225 110 225 130C225 150 240 160 240 160" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M230 90C230 90 220 105 220 130C220 155 230 170 230 170" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Neural Nodes -->
+  <circle cx="160" cy="100" r="5" fill="#3B82F6"/>
+  <circle cx="170" cy="90" r="5" fill="#3B82F6"/>
+  <circle cx="175" cy="130" r="5" fill="#3B82F6"/>
+  <circle cx="160" cy="160" r="5" fill="#3B82F6"/>
+  <circle cx="170" cy="170" r="5" fill="#3B82F6"/>
+  
+  <circle cx="240" cy="100" r="5" fill="#3B82F6"/>
+  <circle cx="230" cy="90" r="5" fill="#3B82F6"/>
+  <circle cx="225" cy="130" r="5" fill="#3B82F6"/>
+  <circle cx="240" cy="160" r="5" fill="#3B82F6"/>
+  <circle cx="230" cy="170" r="5" fill="#3B82F6"/>
+  
+  <circle cx="200" cy="70" r="5" fill="#3B82F6"/>
+  <circle cx="200" cy="190" r="5" fill="#3B82F6"/>
+  
+  <!-- Data Visualization -->
+  <rect x="140" y="210" width="120" height="60" rx="5" fill="white" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Bar Chart -->
+  <rect x="150" y="250" width="10" height="10" fill="#3B82F6"/>
+  <rect x="165" y="240" width="10" height="20" fill="#3B82F6"/>
+  <rect x="180" y="230" width="10" height="30" fill="#3B82F6"/>
+  <rect x="195" y="245" width="10" height="15" fill="#3B82F6"/>
+  <rect x="210" y="220" width="10" height="40" fill="#3B82F6"/>
+  <rect x="225" y="235" width="10" height="25" fill="#3B82F6"/>
+  <rect x="240" y="255" width="10" height="5" fill="#3B82F6"/>
+  
+  <!-- AI Text Recognition -->
+  <rect x="280" y="130" width="80" height="80" rx="5" fill="white" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="290" y1="150" x2="350" y2="150" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="290" y1="165" x2="320" y2="165" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="290" y1="180" x2="340" y2="180" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="290" y1="195" x2="310" y2="195" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Connection Lines -->
+  <path d="M220 160C220 160 280 180 290 165" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M170 150C170 150 120 200 150 240" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Gear Icon -->
+  <circle cx="310" cy="100" r="15" fill="#E6F0FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M310 85V90" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M310 110V115" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M295 100H290" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M330 100H325" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M300 90L297 87" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M323 113L320 110" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M300 110L297 113" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M323 87L320 90" stroke="#3B82F6" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Binary Data -->
+  <text x="80" y="90" font-family="monospace" font-size="12" fill="#3B82F6" opacity="0.7">101010</text>
+  <text x="90" y="110" font-family="monospace" font-size="12" fill="#3B82F6" opacity="0.7">010101</text>
+  <text x="70" y="130" font-family="monospace" font-size="12" fill="#3B82F6" opacity="0.7">110011</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6">AI & Machine Learning</text>
+</svg> 

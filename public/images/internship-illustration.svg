@@ -1,0 +1,34 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="white"/>
+  <rect x="200" y="150" width="400" height="300" rx="20" fill="#E6F0FF"/>
+  
+  <!-- Computer display -->
+  <rect x="250" y="200" width="300" height="200" rx="10" fill="#3B82F6"/>
+  <rect x="260" y="210" width="280" height="170" rx="5" fill="white"/>
+  
+  <!-- Computer base -->
+  <path d="M350 400L450 400L470 440L330 440L350 400Z" fill="#3B82F6"/>
+  
+  <!-- Code lines -->
+  <line x1="280" y1="230" x2="520" y2="230" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="250" x2="450" y2="250" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="270" x2="500" y2="270" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="290" x2="380" y2="290" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="310" x2="480" y2="310" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="330" x2="420" y2="330" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="280" y1="350" x2="520" y2="350" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Person -->
+  <circle cx="600" cy="300" r="40" fill="#3B82F6"/>
+  <path d="M570 340L630 340L650 440L550 440L570 340Z" fill="#3B82F6"/>
+  <path d="M550 340L560 380L570 340" fill="#3B82F6"/>
+  <path d="M630 340L640 380L650 340" fill="#3B82F6"/>
+  
+  <!-- Graduation cap -->
+  <path d="M600 240L650 260L600 280L550 260L600 240Z" fill="#3B82F6"/>
+  <rect x="595" y="280" width="10" height="20" fill="#3B82F6"/>
+  <circle cx="600" cy="300" r="5" fill="#3B82F6"/>
+  
+  <!-- Text -->
+  <text x="280" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#3B82F6">Build Your Future in AI</text>
+</svg> 

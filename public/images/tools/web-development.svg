@@ -1,0 +1,53 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Browser Window -->
+  <rect x="75" y="50" width="250" height="200" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Browser Header -->
+  <rect x="75" y="50" width="250" height="30" rx="8 8 0 0" fill="#3B82F6"/>
+  <circle cx="95" cy="65" r="5" fill="#EF4444"/>
+  <circle cx="115" cy="65" r="5" fill="#F59E0B"/>
+  <circle cx="135" cy="65" r="5" fill="#10B981"/>
+  
+  <!-- URL Bar -->
+  <rect x="155" y="57" width="150" height="16" rx="4" fill="white" fill-opacity="0.3"/>
+  
+  <!-- Website Content -->
+  <rect x="95" y="100" width="100" height="10" rx="2" fill="#E2E8F0"/>
+  <rect x="95" y="120" width="80" height="10" rx="2" fill="#E2E8F0"/>
+  <rect x="95" y="140" width="90" height="10" rx="2" fill="#E2E8F0"/>
+  <rect x="95" y="170" width="60" height="25" rx="4" fill="#3B82F6"/>
+  <rect x="95" y="210" width="210" height="1" fill="#E2E8F0"/>
+  
+  <!-- Website Image -->
+  <rect x="205" y="100" width="100" height="80" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <path d="M230 120L250 140L270 120M240 160L250 140L260 160" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="250" cy="140" r="10" fill="#BFDBFE"/>
+
+  <!-- Code Elements -->
+  <rect x="40" y="150" width="20" height="100" rx="2" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="50" y="170" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">{</text>
+  <text x="50" y="190" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">}</text>
+  <text x="50" y="210" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">&lt;</text>
+  <text x="50" y="230" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">/</text>
+  <text x="50" y="240" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">&gt;</text>
+  
+  <rect x="340" y="50" width="20" height="100" rx="2" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="350" y="70" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">{</text>
+  <text x="350" y="90" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">}</text>
+  <text x="350" y="110" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">&lt;</text>
+  <text x="350" y="130" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">/</text>
+  <text x="350" y="140" font-family="monospace" font-size="10" fill="#3B82F6" text-anchor="middle">&gt;</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="270" r="15" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <text x="200" y="274" font-family="monospace" font-size="14" fill="#3B82F6" text-anchor="middle">W</text>
+  
+  <path d="M40 40L42 45L47 47L42 49L40 54L38 49L33 47L38 45L40 40Z" fill="#3B82F6"/>
+  <path d="M360 260L362 265L367 267L362 269L360 274L358 269L353 267L358 265L360 260Z" fill="#3B82F6"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6" text-anchor="middle">Web Development</text>
+</svg> 

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Main Cloud -->
+  <path d="M280 160C297.673 160 312 145.673 312 128C312 110.327 297.673 96 280 96C279.787 96 279.575 96.0014 279.363 96.0042C273.594 76.7642 255.837 63 235 63C208.49 63 187 84.49 187 111C187 111.545 187.007 112.089 187.022 112.63C187.007 112.753 187 112.876 187 113C187 130.673 201.327 145 219 145H280V160Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Small Clouds -->
+  <path d="M135 130C141.627 130 147 124.627 147 118C147 111.373 141.627 106 135 106C134.905 106 134.81 106.002 134.715 106.006C132.192 97.9142 124.67 92 116 92C105.507 92 97 100.507 97 111C97 111.25 97.0035 111.5 97.0104 111.749C97.0035 111.832 97 111.916 97 112C97 118.627 102.373 124 109 124H135V130Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  
+  <path d="M200 200C206.627 200 212 194.627 212 188C212 181.373 206.627 176 200 176C199.905 176 199.81 176.002 199.715 176.006C197.192 167.914 189.67 162 181 162C170.507 162 162 170.507 162 181C162 181.25 162.004 181.5 162.01 181.749C162.004 181.832 162 181.916 162 182C162 188.627 167.373 194 174 194H200V200Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Server Rack -->
+  <rect x="130" y="180" width="60" height="80" rx="4" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="135" y="185" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="135" y="200" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="135" y="215" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="135" y="230" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="135" y="245" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  
+  <!-- Data Transfer -->
+  <path d="M190 210L240 150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 2"/>
+  <path d="M240 170L190 130" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 2"/>
+  <circle cx="190" cy="210" r="5" fill="#3B82F6"/>
+  <circle cx="190" cy="130" r="5" fill="#3B82F6"/>
+  <circle cx="240" cy="150" r="5" fill="#3B82F6"/>
+  <circle cx="240" cy="170" r="5" fill="#3B82F6"/>
+  
+  <!-- Database -->
+  <ellipse cx="130" cy="80" rx="20" ry="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M110 80V110C110 115.523 119.402 120 130 120C140.598 120 150 115.523 150 110V80" stroke="#3B82F6" stroke-width="2"/>
+  <path d="M110 95C110 100.523 119.402 105 130 105C140.598 105 150 100.523 150 95" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Up/Down Arrows -->
+  <path d="M260 120L260 100M260 100L250 110M260 100L270 110" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M280 115L280 135M280 135L270 125M280 135L290 125" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6">Cloud Computing</text>
+</svg> 

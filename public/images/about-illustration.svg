@@ -1,0 +1,65 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- First Person -->
+  <circle cx="100" cy="120" r="30" fill="#E6F0FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="100" cy="110" r="12" fill="#BFDBFE"/>
+  <path d="M85 140C85 131.716 91.7157 125 100 125C108.284 125 115 131.716 115 140" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M100 170V150" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M80 190L100 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M120 190L100 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="95" cy="108" r="2" fill="#3B82F6"/>
+  <circle cx="105" cy="108" r="2" fill="#3B82F6"/>
+  
+  <!-- Second Person -->
+  <circle cx="200" cy="120" r="30" fill="#E6F0FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="200" cy="110" r="12" fill="#BFDBFE"/>
+  <path d="M185 140C185 131.716 191.716 125 200 125C208.284 125 215 131.716 215 140" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M200 170V150" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M180 190L200 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M220 190L200 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="195" cy="108" r="2" fill="#3B82F6"/>
+  <circle cx="205" cy="108" r="2" fill="#3B82F6"/>
+  
+  <!-- Third Person -->
+  <circle cx="300" cy="120" r="30" fill="#E6F0FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="300" cy="110" r="12" fill="#BFDBFE"/>
+  <path d="M285 140C285 131.716 291.716 125 300 125C308.284 125 315 131.716 315 140" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M300 170V150" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M280 190L300 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M320 190L300 170" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="295" cy="108" r="2" fill="#3B82F6"/>
+  <circle cx="305" cy="108" r="2" fill="#3B82F6"/>
+  
+  <!-- Brain Network -->
+  <circle cx="200" cy="50" r="25" fill="#E6F0FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M190 40C190 40 195 30 200 30C205 30 210 40 210 40" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M185 50C185 50 185 45 190 45C195 45 195 55 200 55C205 55 205 45 210 45C215 45 215 50 215 50" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M190 60C190 60 195 70 200 70C205 70 210 60 210 60" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Connection Lines -->
+  <path d="M130 120H170" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M230 120H270" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M100 80L180 60" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M200 75V80" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M300 80L220 60" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Team Text -->
+  <text x="200" y="230" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#3B82F6">Our Team</text>
+  
+  <!-- Small AI Elements -->
+  <rect x="85" y="230" width="30" height="20" rx="2" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <text x="100" y="244" text-anchor="middle" font-family="monospace" font-size="10" fill="#3B82F6">ML</text>
+  
+  <rect x="185" y="230" width="30" height="20" rx="2" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <text x="200" y="244" text-anchor="middle" font-family="monospace" font-size="10" fill="#3B82F6">AI</text>
+  
+  <rect x="285" y="230" width="30" height="20" rx="2" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <text x="300" y="244" text-anchor="middle" font-family="monospace" font-size="10" fill="#3B82F6">DS</text>
+  
+  <!-- Sparkle Elements -->
+  <path d="M150 60L152 65L157 67L152 69L150 74L148 69L143 67L148 65L150 60Z" fill="#3B82F6"/>
+  <path d="M250 60L252 65L257 67L252 69L250 74L248 69L243 67L248 65L250 60Z" fill="#3B82F6"/>
+  <path d="M200 15L201 18L204 19L201 20L200 23L199 20L196 19L199 18L200 15Z" fill="#3B82F6"/>
+</svg> 

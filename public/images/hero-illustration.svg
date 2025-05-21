@@ -1,0 +1,31 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="white"/>
+  <circle cx="400" cy="300" r="150" fill="#E6F0FF"/>
+  <path d="M400 120C284.52 120 190 214.52 190 330C190 445.48 284.52 540 400 540C515.48 540 610 445.48 610 330C610 214.52 515.48 120 400 120ZM400 500C306.92 500 230 423.08 230 330C230 236.92 306.92 160 400 160C493.08 160 570 236.92 570 330C570 423.08 493.08 500 400 500Z" fill="#3B82F6"/>
+  <rect x="370" y="260" width="60" height="140" rx="5" fill="#3B82F6"/>
+  <rect x="330" y="340" width="140" height="25" rx="5" fill="#3B82F6"/>
+  <circle cx="310" cy="250" r="20" fill="#3B82F6"/>
+  <circle cx="490" cy="250" r="20" fill="#3B82F6"/>
+  <circle cx="310" cy="250" r="10" fill="white"/>
+  <circle cx="490" cy="250" r="10" fill="white"/>
+  <path d="M320 410L350 450L400 410L450 450L480 410" stroke="#3B82F6" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Brain network -->
+  <circle cx="550" cy="150" r="5" fill="#3B82F6"/>
+  <circle cx="580" cy="180" r="5" fill="#3B82F6"/>
+  <circle cx="530" cy="190" r="5" fill="#3B82F6"/>
+  <circle cx="560" cy="210" r="5" fill="#3B82F6"/>
+  <line x1="550" y1="150" x2="580" y2="180" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="580" y1="180" x2="530" y2="190" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="530" y1="190" x2="560" y2="210" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="550" y1="150" x2="530" y2="190" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Data visualization elements -->
+  <rect x="220" y="150" width="15" height="40" fill="#3B82F6"/>
+  <rect x="240" y="130" width="15" height="60" fill="#3B82F6"/>
+  <rect x="260" y="150" width="15" height="40" fill="#3B82F6"/>
+  <rect x="280" y="120" width="15" height="70" fill="#3B82F6"/>
+  
+  <!-- AI text -->
+  <text x="380" y="100" font-family="Arial" font-size="48" font-weight="bold" fill="#3B82F6">AI</text>
+</svg> 
