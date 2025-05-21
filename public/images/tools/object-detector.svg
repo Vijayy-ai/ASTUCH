@@ -1,0 +1,62 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#3B82F6" text-anchor="middle">Object Detector</text>
+  
+  <!-- Main Container -->
+  <rect x="75" y="60" width="250" height="180" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Image Display Area -->
+  <rect x="90" y="75" width="220" height="130" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Scene with Objects -->
+  <!-- Car -->
+  <rect x="110" y="115" width="60" height="30" rx="5" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <rect x="110" y="135" width="60" height="10" rx="2" fill="#3B82F6" opacity="0.3"/>
+  <circle cx="125" cy="145" r="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <circle cx="155" cy="145" r="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  
+  <!-- Detection Box around Car -->
+  <rect x="105" y="110" width="70" height="48" rx="2" stroke="#10B981" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+  <rect x="105" y="100" width="50" height="15" rx="2" fill="white" stroke="#10B981" stroke-width="1"/>
+  <text x="130" y="110" font-family="Arial" font-size="8" fill="#10B981" text-anchor="middle">Car: 95%</text>
+  
+  <!-- Person -->
+  <circle cx="200" cy="120" r="10" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <rect x="195" y="130" width="10" height="25" rx="2" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <line x1="195" y1="140" x2="185" y2="155" stroke="#3B82F6" stroke-width="1.5"/>
+  <line x1="205" y1="140" x2="215" y2="155" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Detection Box around Person -->
+  <rect x="180" y="105" width="40" height="55" rx="2" stroke="#EC4899" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+  <rect x="180" y="95" width="60" height="15" rx="2" fill="white" stroke="#EC4899" stroke-width="1"/>
+  <text x="210" y="105" font-family="Arial" font-size="8" fill="#EC4899" text-anchor="middle">Person: 98%</text>
+  
+  <!-- Building -->
+  <rect x="240" y="90" width="50" height="65" rx="3" fill="#BFDBFE" stroke="#3B82F6" stroke-width="1"/>
+  <rect x="250" y="100" width="10" height="15" rx="1" fill="#EFF6FF" stroke="#3B82F6" stroke-width="0.5"/>
+  <rect x="270" y="100" width="10" height="15" rx="1" fill="#EFF6FF" stroke="#3B82F6" stroke-width="0.5"/>
+  <rect x="250" y="125" width="10" height="15" rx="1" fill="#EFF6FF" stroke="#3B82F6" stroke-width="0.5"/>
+  <rect x="270" y="125" width="10" height="15" rx="1" fill="#EFF6FF" stroke="#3B82F6" stroke-width="0.5"/>
+  <rect x="255" y="155" width="20" height="25" rx="1" fill="#3B82F6" opacity="0.3"/>
+  
+  <!-- Detection Box around Building -->
+  <rect x="235" y="85" width="60" height="75" rx="2" stroke="#FBBF24" stroke-width="1.5" fill="none" stroke-dasharray="4 2"/>
+  <rect x="235" y="75" width="65" height="15" rx="2" fill="white" stroke="#FBBF24" stroke-width="1"/>
+  <text x="268" y="85" font-family="Arial" font-size="8" fill="#FBBF24" text-anchor="middle">Building: 92%</text>
+  
+  <!-- Ground -->
+  <rect x="90" y="155" width="220" height="50" rx="0" fill="#3B82F6" opacity="0.1"/>
+  
+  <!-- Stats Panel -->
+  <rect x="90" y="215" width="220" height="15" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="200" y="225" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Objects detected: 3 | Confidence threshold: 90%</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <circle cx="350" cy="250" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M35 245 L45 255 M35 255 L45 245" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M345 60 L355 70 M345 70 L355 60" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+</svg> 

@@ -90,26 +90,48 @@ export default function ToolsPage() {
 
   return (
     <>
-      <Section backgroundColor="blue" className="py-12 md:py-20">
-        <div className="text-center">
-          <motion.h1 
-            className="text-4xl md:text-5xl font-bold mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            AI Tools
-          </motion.h1>
-          <motion.p 
-            className="text-xl max-w-3xl mx-auto text-blue-100"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            Discover our collection of powerful AI tools to enhance your productivity and solve complex problems
-          </motion.p>
+      <section className="relative bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-12 md:py-20 overflow-hidden">
+        {/* Darker overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-20"></div>
+
+        {/* Decorative elements with subtle animation */}
+        <motion.div
+          className="absolute top-10 left-5 w-24 h-24 rounded-full bg-blue-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+        <motion.div
+          className="absolute bottom-10 right-5 w-36 h-36 rounded-full bg-indigo-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 2, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center">
+            <motion.h1 
+              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              Our Tools
+            </motion.h1>
+            <motion.p 
+              className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-blue-100"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              Discover our collection of powerful tools to enhance your productivity and solve complex problems
+            </motion.p>
+          </div>
         </div>
-      </Section>
+      </section>
 
       <Section className="py-12">
         {/* Category Filters */}
@@ -151,7 +173,7 @@ export default function ToolsPage() {
           >
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">{category}</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
               {tools.map((tool, toolIndex) => (
                 <motion.div
                   key={tool.id}
@@ -167,7 +189,7 @@ export default function ToolsPage() {
                     tags={tool.tags}
                     className="h-full flex flex-col"
                   >
-                    <div className="mt-auto pt-4 flex justify-between items-center">
+                    <div className="mt-auto pt-4 flex flex-wrap gap-2 justify-between items-center">
                       <Button 
                         href={tool.href} 
                         variant="primary" 
@@ -196,7 +218,7 @@ export default function ToolsPage() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Support & Documentation</h2>
           <p className="text-lg text-gray-600 mb-8">
-            Get the most out of our AI tools with comprehensive documentation, tutorials, and support resources.
+            Get the most out of our tools with comprehensive documentation, tutorials, and support resources.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

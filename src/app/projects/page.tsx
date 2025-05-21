@@ -86,26 +86,48 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <Section backgroundColor="blue" className="py-12 md:py-20">
-        <div className="text-center">
-          <motion.h1 
-            className="text-4xl md:text-5xl font-bold mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            AI Projects
-          </motion.h1>
-          <motion.p 
-            className="text-xl max-w-3xl mx-auto text-blue-100"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            Explore our innovative AI projects that solve real-world problems and drive business value
-          </motion.p>
+      <section className="relative bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-12 md:py-20 overflow-hidden">
+        {/* Darker overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-20"></div>
+
+        {/* Decorative elements with subtle animation */}
+        <motion.div
+          className="absolute top-10 left-5 w-24 h-24 rounded-full bg-blue-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+        <motion.div
+          className="absolute bottom-10 right-5 w-36 h-36 rounded-full bg-indigo-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 2, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center">
+            <motion.h1 
+              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              Our Projects
+            </motion.h1>
+            <motion.p 
+              className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-blue-100"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              Explore our innovative projects that solve real-world problems and drive business value
+            </motion.p>
+          </div>
         </div>
-      </Section>
+      </section>
 
       <Section className="py-12">
         <div className="mb-10">
@@ -154,7 +176,7 @@ export default function ProjectsPage() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
           {filteredProjects.map((project, index) => (
             <motion.div
               key={project.id}

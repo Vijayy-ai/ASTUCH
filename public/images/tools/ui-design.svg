@@ -4,42 +4,56 @@
   <rect width="400" height="300" fill="#F8FAFC"/>
   
   <!-- Main Design Screen -->
-  <rect x="100" y="50" width="200" height="200" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
   
   <!-- Toolbar -->
-  <rect x="100" y="50" width="200" height="30" rx="8 8 0 0" fill="#3B82F6"/>
-  <circle cx="115" cy="65" r="5" fill="white"/>
-  <circle cx="130" cy="65" r="5" fill="white"/>
-  <circle cx="145" cy="65" r="5" fill="white"/>
+  <rect x="50" y="50" width="300" height="30" rx="10 10 0 0" fill="#3B82F6"/>
+  <circle cx="65" cy="65" r="5" fill="white"/>
+  <circle cx="80" cy="65" r="5" fill="white"/>
+  <circle cx="95" cy="65" r="5" fill="white"/>
   
   <!-- Design Elements -->
-  <rect x="120" y="100" width="160" height="30" rx="5" fill="#EFF6FF"/>
-  <rect x="120" y="140" width="70" height="80" rx="5" fill="#EFF6FF"/>
-  <rect x="210" y="140" width="70" height="80" rx="5" fill="#EFF6FF"/>
+  <rect x="70" y="100" width="120" height="80" rx="5" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="80" y="110" width="100" height="10" rx="2" fill="#3B82F6"/>
+  <rect x="80" y="130" width="80" height="6" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="145" width="60" height="6" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="160" width="40" height="20" rx="4" fill="#3B82F6"/>
+  <text x="100" y="173" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Button</text>
   
-  <!-- Decorative Elements -->
-  <rect x="130" y="110" width="80" height="10" rx="2" fill="#3B82F6"/>
-  <rect x="220" y="110" width="30" height="10" rx="2" fill="#3B82F6"/>
-  
-  <circle cx="155" cy="180" r="20" fill="#3B82F6"/>
-  <rect x="220" cy="170" width="50" height="8" rx="2" fill="#3B82F6"/>
-  <rect x="220" cy="185" width="40" height="8" rx="2" fill="#3B82F6"/>
-  <rect x="220" cy="200" width="30" height="8" rx="2" fill="#3B82F6"/>
+  <!-- Mobile Design Preview -->
+  <rect x="210" y="90" width="60" height="120" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="210" y="90" width="60" height="15" rx="8 8 0 0" fill="#3B82F6"/>
+  <rect x="215" y="110" width="50" height="6" rx="2" fill="#BFDBFE"/>
+  <rect x="215" y="120" width="40" height="6" rx="2" fill="#BFDBFE"/>
+  <rect x="215" y="130" width="30" height="6" rx="2" fill="#BFDBFE"/>
+  <rect x="215" y="160" width="50" height="30" rx="2" fill="#BFDBFE" stroke="#93C5FD" stroke-width="1"/>
+  <circle cx="235" cy="175" r="10" fill="#3B82F6"/>
+  <circle cx="235" cy="175" r="4" fill="white"/>
+  <rect x="225" y="195" width="30" height="10" rx="4" fill="#3B82F6"/>
   
   <!-- Color Palette -->
-  <circle cx="340" cy="80" r="15" fill="#3B82F6"/>
-  <circle cx="340" cy="120" r="15" fill="#10B981"/>
-  <circle cx="340" cy="160" r="15" fill="#F59E0B"/>
-  <circle cx="340" cy="200" r="15" fill="#EF4444"/>
+  <rect x="290" y="100" width="40" height="130" rx="5" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <circle cx="310" cy="115" r="10" fill="#3B82F6"/>
+  <circle cx="310" cy="140" r="10" fill="#60A5FA"/>
+  <circle cx="310" cy="165" r="10" fill="#93C5FD"/>
+  <circle cx="310" cy="190" r="10" fill="#BFDBFE"/>
+  <circle cx="310" cy="215" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
   
   <!-- Design Tools -->
-  <rect x="50" y="70" width="30" height="160" rx="5" fill="#F1F5F9" stroke="#3B82F6" stroke-width="1"/>
-  <rect x="55" y="80" width="20" height="20" rx="4" fill="#BFDBFE"/>
-  <rect x="55" y="110" width="20" height="20" rx="4" fill="#BFDBFE"/>
-  <rect x="55" y="140" width="20" height="20" rx="4" fill="#BFDBFE"/>
-  <rect x="55" y="170" width="20" height="20" rx="4" fill="#BFDBFE"/>
-  <rect x="55" y="200" width="20" height="20" rx="4" fill="#BFDBFE"/>
+  <rect x="70" y="190" width="120" height="40" rx="5" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="80" y="200" width="20" height="20" rx="4" fill="#3B82F6"/>
+  <rect x="110" y="200" width="20" height="20" rx="4" fill="#60A5FA"/>
+  <rect x="140" y="200" width="20" height="20" rx="4" fill="#93C5FD"/>
+  <circle cx="80" cy="200" r="5" fill="white"/>
+  <line x1="110" y1="205" x2="130" y2="215" stroke="white" stroke-width="2"/>
+  <path d="M140 200L160 220" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 1"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M30 30L32 35L37 37L32 39L30 44L28 39L23 37L28 35L30 30Z" fill="#3B82F6"/>
+  <path d="M370 30L372 35L377 37L372 39L370 44L368 39L363 37L368 35L370 30Z" fill="#3B82F6"/>
+  <path d="M370 270L372 275L377 277L372 279L370 284L368 279L363 277L368 275L370 270Z" fill="#3B82F6"/>
+  <path d="M30 270L32 275L37 277L32 279L30 284L28 279L23 277L28 275L30 270Z" fill="#3B82F6"/>
   
   <!-- Title -->
-  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6">UI/UX Design</text>
+  <text x="200" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6" text-anchor="middle">UI/UX Design</text>
 </svg> 

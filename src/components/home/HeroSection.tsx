@@ -78,8 +78,8 @@ const HeroSection = () => {
               </Button>
               <Button 
                 href="/internship" 
-                variant="primary" 
-                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-800 transition-colors duration-200"
+                variant="outline" 
+                className="text-white hover:bg-white/10 hover:backdrop-blur-sm"
               >
                 Join Our Team
               </Button>

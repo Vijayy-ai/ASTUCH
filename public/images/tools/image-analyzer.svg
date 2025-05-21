@@ -1,71 +1,62 @@
 <svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="400" height="300" fill="#F1F5F9"/>
+  <rect width="400" height="300" fill="#F8FAFC"/>
   
-  <!-- Main Frame -->
-  <rect x="50" y="50" width="300" height="200" rx="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#3B82F6" text-anchor="middle">Image Analyzer</text>
   
-  <!-- Header Bar -->
-  <rect x="50" y="50" width="300" height="30" rx="10 10 0 0" fill="#3B82F6"/>
-  <text x="200" y="70" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Image Analyzer Tool</text>
+  <!-- Main Container -->
+  <rect x="75" y="60" width="250" height="180" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
   
-  <!-- Image Area -->
-  <rect x="70" y="90" width="160" height="140" rx="5" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
+  <!-- Image Display Area -->
+  <rect x="90" y="80" width="140" height="105" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
   
-  <!-- Sample Image Content -->
-  <circle cx="120" cy="130" r="25" fill="#BFDBFE"/>
-  <rect x="100" y="170" width="100" height="30" rx="5" fill="#BFDBFE"/>
-  <polygon points="170,120 190,150 150,150" fill="#BFDBFE"/>
+  <!-- Sample Image - Landscape -->
+  <rect x="100" y="90" width="120" height="85" rx="3" fill="#BFDBFE"/>
+  <circle cx="120" cy="110" r="10" fill="#EFF6FF"/>
+  <path d="M90 165 L140 125 L170 145 L230 85" stroke="#3B82F6" stroke-width="0" fill="none"/>
+  <path d="M90 165 L140 125" stroke="#3B82F6" stroke-width="0" fill="none"/>
   
-  <!-- Object Detection Frame -->
-  <rect x="100" y="120" width="40" height="40" rx="2" stroke="#10B981" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
-  <text x="120" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#10B981">Circle</text>
-  
-  <rect x="100" y="170" width="100" height="30" rx="5" stroke="#EC4899" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
-  <text x="150" y="210" text-anchor="middle" font-family="Arial" font-size="10" fill="#EC4899">Rectangle</text>
-  
-  <polygon points="170,120 190,150 150,150" stroke="#FBBF24" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
-  <text x="170" y="115" text-anchor="middle" font-family="Arial" font-size="10" fill="#FBBF24">Triangle</text>
+  <!-- Simple landscape image -->
+  <path d="M100 140 L120 120 L140 130 L160 110 L180 125 L220 90" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M100 175 L220 175 L220 140 L180 125 L160 110 L140 130 L120 120 L100 140 Z" fill="#3B82F6" opacity="0.2"/>
+  <circle cx="130" cy="105" r="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1"/>
   
   <!-- Analysis Panel -->
-  <rect x="250" y="90" width="80" height="140" rx="5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <rect x="240" y="80" width="70" height="105" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
   
-  <!-- Analysis Results -->
-  <text x="290" y="105" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#3B82F6">Analysis</text>
+  <!-- Analysis Items -->
+  <text x="275" y="95" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Analysis</text>
   
-  <rect x="260" y="115" width="60" height="2" fill="#E2E8F0"/>
+  <!-- Objects Detected -->
+  <rect x="250" y="105" width="50" height="12" rx="2" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="275" y="114" font-family="Arial" font-size="7" fill="#3B82F6" text-anchor="middle">Landscape: 95%</text>
   
-  <circle cx="265" cy="130" r="5" fill="#10B981"/>
-  <text x="290" y="134" text-anchor="start" font-family="Arial" font-size="10" fill="#475569">Circle: 95%</text>
+  <rect x="250" y="125" width="50" height="12" rx="2" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="275" y="134" font-family="Arial" font-size="7" fill="#3B82F6" text-anchor="middle">Mountains: 87%</text>
   
-  <circle cx="265" cy="150" r="5" fill="#EC4899"/>
-  <text x="290" y="154" text-anchor="start" font-family="Arial" font-size="10" fill="#475569">Rect: 87%</text>
+  <rect x="250" y="145" width="50" height="12" rx="2" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="275" y="154" font-family="Arial" font-size="7" fill="#3B82F6" text-anchor="middle">Sky: 92%</text>
   
-  <circle cx="265" cy="170" r="5" fill="#FBBF24"/>
-  <text x="290" y="174" text-anchor="start" font-family="Arial" font-size="10" fill="#475569">Tri: 92%</text>
+  <rect x="250" y="165" width="50" height="12" rx="2" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="275" y="174" font-family="Arial" font-size="7" fill="#3B82F6" text-anchor="middle">Sun: 78%</text>
   
-  <rect x="260" y="185" width="60" height="2" fill="#E2E8F0"/>
+  <!-- Tags Section -->
+  <rect x="90" y="195" width="220" height="35" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
   
-  <text x="290" y="205" text-anchor="middle" font-family="Arial" font-size="10" fill="#3B82F6">3 objects</text>
-  <text x="290" y="220" text-anchor="middle" font-family="Arial" font-size="10" fill="#3B82F6">detected</text>
+  <!-- Tags -->
+  <rect x="100" y="205" width="50" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="125" y="215" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Outdoor</text>
   
-  <!-- Upload Button -->
-  <rect x="70" y="240" width="100" height="30" rx="15" fill="#3B82F6"/>
-  <text x="120" y="260" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Upload</text>
+  <rect x="160" y="205" width="50" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="185" y="215" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Nature</text>
   
-  <!-- Analyze Button -->
-  <rect x="180" y="240" width="100" height="30" rx="15" fill="#10B981"/>
-  <text x="230" y="260" text-anchor="middle" font-family="Arial" font-size="14" fill="white">Analyze</text>
+  <rect x="220" y="205" width="50" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="245" y="215" font-family="Arial" font-size="8" fill="#3B82F6" text-anchor="middle">Sunny</text>
   
-  <!-- Settings Icon -->
-  <circle cx="300" cy="255" r="15" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
-  <circle cx="300" cy="255" r="5" fill="#3B82F6"/>
-  <path d="M300 240V245" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M300 265V270" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M315 255H310" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M290 255H285" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M310 245L306 249" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M294 261L290 265" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M310 265L306 261" stroke="#3B82F6" stroke-width="1.5"/>
-  <path d="M294 249L290 245" stroke="#3B82F6" stroke-width="1.5"/>
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <circle cx="350" cy="250" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M35 245 L45 255 M35 255 L45 245" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M345 60 L355 70 M345 70 L355 60" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
 </svg> 

@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from '@/utils/motion';
 import Section from '@/components/ui/Section';
+import Image from 'next/image';
 
 const testimonials = [
   {
@@ -63,12 +64,14 @@ const Testimonials = () => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
             <div className="flex items-center mb-4 md:mb-6">
-              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden mr-3 md:mr-4 flex-shrink-0 bg-blue-100 border border-blue-200">
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden mr-3 md:mr-4 flex-shrink-0 bg-blue-100 border border-blue-200 relative">
                 {testimonial.image && (
-                  <img 
+                  <Image 
                     src={testimonial.image} 
                     alt={testimonial.name}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(max-width: 768px) 48px, 56px"
+                    className="object-cover"
                   />
                 )}
               </div>

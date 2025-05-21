@@ -1,0 +1,65 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#EFF6FF"/>
+  
+  <!-- Main Paper/Document Area -->
+  <rect x="150" y="75" width="500" height="300" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Document Header -->
+  <rect x="180" y="100" width="300" height="20" rx="4" fill="#BFDBFE"/>
+  <rect x="180" y="130" width="440" height="15" rx="4" fill="#DBEAFE"/>
+  <rect x="180" y="155" width="400" height="15" rx="4" fill="#DBEAFE"/>
+  
+  <!-- Content Sections -->
+  <rect x="180" y="190" width="150" height="100" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="350" y="190" width="270" height="100" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Analysis Elements -->
+  <circle cx="650" cy="110" r="30" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="650" y="115" font-family="Arial" font-size="16" fill="#3B82F6" text-anchor="middle">95%</text>
+  
+  <!-- Text Lines in Sections -->
+  <rect x="190" y="205" width="130" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="190" y="220" width="110" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="190" y="235" width="125" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="190" y="250" width="115" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="190" y="265" width="120" height="5" rx="2.5" fill="#BFDBFE"/>
+  
+  <rect x="360" y="205" width="250" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="360" y="220" width="230" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="360" y="235" width="240" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="360" y="250" width="220" height="5" rx="2.5" fill="#BFDBFE"/>
+  <rect x="360" y="265" width="245" height="5" rx="2.5" fill="#BFDBFE"/>
+  
+  <!-- Analysis Tags Section -->
+  <rect x="180" y="310" width="440" height="40" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Analysis Tags -->
+  <rect x="190" y="322.5" width="80" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="230" y="333" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle">Technical</text>
+  
+  <rect x="280" y="322.5" width="80" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="320" y="333" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle">Informative</text>
+  
+  <rect x="370" y="322.5" width="80" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="410" y="333" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle">Detailed</text>
+  
+  <rect x="460" y="322.5" width="80" height="15" rx="7.5" fill="white" stroke="#3B82F6" stroke-width="1"/>
+  <text x="500" y="333" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="middle">Educational</text>
+  
+  <!-- Magnifying Glass Icon -->
+  <circle cx="110" cy="150" r="40" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="139" y1="179" x2="160" y2="200" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Analysis Indicators -->
+  <path d="M690 180 L720 180 L720 210" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M690 240 L720 240 L720 270" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="720" cy="225" r="20" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="720" y="229" font-family="Arial" font-size="12" fill="#3B82F6" text-anchor="middle">AI</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="80" r="20" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.7"/>
+  <circle cx="720" cy="370" r="20" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.7"/>
+  <path d="M60 350 L100 390 M60 390 L100 350" stroke="#3B82F6" stroke-width="1.5" opacity="0.5"/>
+  <path d="M700 80 L740 120 M700 120 L740 80" stroke="#3B82F6" stroke-width="1.5" opacity="0.5"/>
+</svg> 

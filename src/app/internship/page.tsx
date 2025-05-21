@@ -86,67 +86,93 @@ const benefits = [
 export default function InternshipPage() {
   return (
     <>
-      <Section backgroundColor="blue" className="py-16 md:py-24">
-        <div className="flex flex-col md:flex-row items-center gap-10">
-          <div className="md:w-1/2">
-            <motion.h1 
-              className="text-4xl md:text-5xl font-bold mb-6"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              Start Your AI Journey With ASTUCH
-            </motion.h1>
-            
-            <motion.p 
-              className="text-xl mb-8 text-blue-100"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              Join our internship program to gain hands-on experience in AI development, collaborate with experienced professionals, and build your career in the tech industry.
-            </motion.p>
-            
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.4 }}
-            >
-              <Button 
-                href="#apply-now" 
-                variant="secondary"
-                className="font-semibold text-blue-800"
+      <section className="relative bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-16 md:py-24 overflow-hidden">
+        {/* Darker overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-20"></div>
+
+        {/* Decorative elements with subtle animation */}
+        <motion.div
+          className="absolute top-10 left-5 w-24 h-24 rounded-full bg-blue-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+        <motion.div
+          className="absolute bottom-10 right-5 w-36 h-36 rounded-full bg-indigo-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 2, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <motion.h1 
+                className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
               >
-                Apply Now
-              </Button>
+                Start Your Tech Career With Us
+              </motion.h1>
+              
+              <motion.p 
+                className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 text-blue-100"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                Join our internship program to gain hands-on experience in technology development, collaborate with experienced professionals, and build your career in the tech industry.
+              </motion.p>
+              
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4 }}
+              >
+                <Button 
+                  href="#apply-now" 
+                  variant="secondary"
+                  className="font-semibold text-blue-800"
+                >
+                  Apply Now
+                </Button>
+              </motion.div>
+            </div>
+            
+            <motion.div 
+              className="w-full md:w-1/2 mt-6 md:mt-0"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="relative h-64 sm:h-80 md:h-auto">
+                <div className="absolute inset-0 bg-blue-400 rounded-full opacity-20 blur-3xl"></div>
+                <img
+                  src="/images/internship/hero-image.svg"
+                  alt="ASTUCH Internship"
+                  className="w-full h-full object-contain relative z-10"
+                  style={{ filter: "drop-shadow(0px 5px 15px rgba(59, 130, 246, 0.5))" }}
+                />
+              </div>
             </motion.div>
           </div>
-          
-          <motion.div 
-            className="md:w-1/2"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
-          >
-            <img
-              src="/images/internship/hero-image.svg"
-              alt="ASTUCH Internship"
-              className="w-full h-auto"
-            />
-          </motion.div>
         </div>
-      </Section>
+      </section>
 
       {/* Why Intern With Us */}
       <Section id="why-join">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Intern With Us</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Our internship program is designed to provide valuable experience while building your skills in AI and technology
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Why Intern With Us</h2>
+          <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto">
+            Our internship program is designed to provide valuable experience while building your skills in technology
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {benefits.map((benefit, index) => (
             <motion.div 
               key={index}

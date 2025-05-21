@@ -9,25 +9,25 @@ import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 const teamMembers = [
   {
     id: 1,
-    name: 'Rahul Sharma',
+    name: 'Abhisekh Sharma',
     position: 'Founder & CEO',
     bio: 'Expert in AI and machine learning with over 10 years of experience leading tech teams.',
-    image: '/images/team/rahul.jpg',
+    image: '/images/team/abhisekh.jpg',
     socialLinks: {
-      linkedin: 'https://linkedin.com/in/rahulsharma',
-      github: 'https://github.com/rahulsharma',
-      twitter: 'https://twitter.com/rahulsharma',
+      linkedin: 'https://linkedin.com/in/abhisekhsharma',
+      github: 'https://github.com/abhisekhsharma',
+      twitter: 'https://twitter.com/abhisekhsharma',
     }
   },
   {
     id: 2,
-    name: 'Priya Patel',
+    name: 'Rani Patel',
     position: 'CTO',
     bio: 'Full-stack developer and AI researcher specializing in natural language processing.',
-    image: '/images/team/priya.jpg',
+    image: '/images/team/rani.jpg',
     socialLinks: {
-      linkedin: 'https://linkedin.com/in/priyapatel',
-      github: 'https://github.com/priyapatel',
+      linkedin: 'https://linkedin.com/in/Ranipatel',
+    github: 'https://github.com/Ranipatel',
     }
   },
   {
@@ -44,7 +44,7 @@ const teamMembers = [
   },
   {
     id: 4,
-    name: 'Ananya Gupta',
+    name: 'Ananya sharma',
     position: 'Product Manager',
     bio: 'Passionate about creating user-friendly AI products that solve real business problems.',
     image: '/images/team/ananya.jpg',
@@ -91,42 +91,64 @@ const journeyMilestones = [
 export default function AboutPage() {
   return (
     <>
-      <Section backgroundColor="blue" className="py-16 md:py-24">
-        <div className="text-center">
-          <motion.h1 
-            className="text-4xl md:text-5xl font-bold mb-6"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            About ASTUCH
-          </motion.h1>
-          <motion.p 
-            className="text-xl max-w-3xl mx-auto text-blue-100"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-          >
-            We're a team of AI enthusiasts dedicated to building innovative tools and solutions
-          </motion.p>
+      <section className="relative bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-16 md:py-24 overflow-hidden">
+        {/* Darker overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-20"></div>
+
+        {/* Decorative elements with subtle animation */}
+        <motion.div
+          className="absolute top-10 left-5 w-24 h-24 rounded-full bg-blue-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+        <motion.div
+          className="absolute bottom-10 right-5 w-36 h-36 rounded-full bg-indigo-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 2, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="text-center">
+            <motion.h1 
+              className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              About ASTUCH
+            </motion.h1>
+            <motion.p 
+              className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-blue-100"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+            >
+              We're a team dedicated to building innovative solutions that solve real business challenges
+            </motion.p>
+          </div>
         </div>
-      </Section>
+      </section>
 
       {/* Mission & Vision */}
       <Section>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
-            <p className="text-gray-700 text-lg mb-4">
-              To make artificial intelligence accessible and useful for businesses and organizations of all sizes, helping them solve complex problems and drive innovation.
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Our Mission</h2>
+            <p className="text-gray-700 text-base sm:text-lg mb-4">
+              To make technology accessible and useful for businesses and organizations of all sizes, helping them solve complex problems and drive innovation.
             </p>
-            <p className="text-gray-700 text-lg">
-              We believe that AI should be a tool for positive change, and we're committed to developing solutions that have a meaningful impact on our clients and the world.
+            <p className="text-gray-700 text-base sm:text-lg">
+              We believe that technology should be a tool for positive change, and we're committed to developing solutions that have a meaningful impact on our clients and the world.
             </p>
           </motion.div>
           
@@ -136,12 +158,12 @@ export default function AboutPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Vision</h2>
-            <p className="text-gray-700 text-lg mb-4">
-              To be a leading innovator in the AI space, known for creating cutting-edge tools and solutions that transform industries and empower users.
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Our Vision</h2>
+            <p className="text-gray-700 text-base sm:text-lg mb-4">
+              To be a leading innovator in the tech space, known for creating cutting-edge tools and solutions that transform industries and empower users.
             </p>
-            <p className="text-gray-700 text-lg">
-              We envision a future where AI is seamlessly integrated into daily operations, making processes more efficient, decisions more informed, and outcomes more successful.
+            <p className="text-gray-700 text-base sm:text-lg">
+              We envision a future where technology is seamlessly integrated into daily operations, making processes more efficient, decisions more informed, and outcomes more successful.
             </p>
           </motion.div>
         </div>

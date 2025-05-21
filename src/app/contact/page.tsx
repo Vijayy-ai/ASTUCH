@@ -4,13 +4,33 @@ import React from 'react';
 import { motion } from '@/utils/motion';
 import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function ContactPage() {
   return (
     <>
-      <Section backgroundColor="blue" className="py-16 md:py-24">
-        <div className="text-center">
+      <Section className="relative py-16 md:py-24 bg-gradient-to-r from-blue-900 to-indigo-900 text-white overflow-hidden">
+        {/* Darker overlay for better text contrast */}
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+        
+        {/* Background pattern */}
+        <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-20"></div>
+        
+        {/* Decorative elements with subtle animation */}
+        <motion.div
+          className="absolute top-10 left-5 w-24 h-24 rounded-full bg-blue-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 1.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+        <motion.div
+          className="absolute bottom-10 right-5 w-36 h-36 rounded-full bg-indigo-400 opacity-20 blur-xl hidden md:block"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 0.2, scale: 1 }}
+          transition={{ duration: 2, delay: 0.5, repeat: Infinity, repeatType: "reverse" }}
+        ></motion.div>
+      
+        <div className="relative z-10 text-center">
           <motion.h1 
             className="text-4xl md:text-5xl font-bold mb-6"
             initial={{ opacity: 0, y: 20 }}
@@ -31,14 +51,15 @@ export default function ContactPage() {
       </Section>
 
       <Section>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="order-2 lg:order-1"
           >
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
             <p className="text-gray-600 mb-8">
               Fill out the form below and we&apos;ll get back to you as soon as possible.
             </p>
@@ -88,6 +109,7 @@ export default function ContactPage() {
                 <Button 
                   type="submit" 
                   variant="primary"
+                  className="w-full sm:w-auto"
                 >
                   Send Message
                 </Button>
@@ -100,10 +122,11 @@ export default function ContactPage() {
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
+            className="order-1 lg:order-2"
           >
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact Information</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">Connect With Us</h2>
             <p className="text-gray-600 mb-8">
-              We&apos;re here to help! Reach out to us through any of the following channels.
+              We&apos;re here to help! Visit our office or connect through social media.
             </p>
             
             <div className="space-y-6 mb-12">
@@ -121,38 +144,10 @@ export default function ContactPage() {
                   </address>
                 </div>
               </div>
-              
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <FaEnvelope className="text-blue-600" size={20} />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-1">Email</h3>
-                  <p className="text-gray-600">
-                    <a href="mailto:info@astuch.com" className="hover:text-blue-600 transition-colors">
-                      info@astuch.com
-                    </a>
-                  </p>
-                </div>
-              </div>
-              
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
-                  <FaPhone className="text-blue-600" size={20} />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-1">Phone</h3>
-                  <p className="text-gray-600">
-                    <a href="tel:+911412345678" className="hover:text-blue-600 transition-colors">
-                      +91 141 234 5678
-                    </a>
-                  </p>
-                </div>
-              </div>
             </div>
             
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Connect With Us</h3>
-            <div className="flex space-x-4">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Follow Us</h3>
+            <div className="flex flex-wrap gap-4">
               <a 
                 href="https://linkedin.com/company/astuch" 
                 target="_blank" 
@@ -194,7 +189,7 @@ export default function ContactPage() {
       <Section backgroundColor="light">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Find Us</h2>
         <div className="h-96 w-full rounded-lg overflow-hidden shadow-md">
-          {/* Google Map iframe (replace with your actual location) */}
+          {/* Google Map iframe */}
           <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114584.95299537112!2d75.70272115644222!3d26.882106191465613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db38950a4e249%3A0x1fc26b936237b14c!2sJaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1627646954650!5m2!1sen!2sin" 
             width="100%" 

@@ -1,0 +1,53 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F8FAFC"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" font-weight="bold" fill="#3B82F6" text-anchor="middle">Sentiment Analyzer</text>
+  
+  <!-- Main Container -->
+  <rect x="75" y="60" width="250" height="180" rx="8" fill="white" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Message Bubbles -->
+  <rect x="90" y="80" width="160" height="40" rx="20" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="170" y="104" font-family="Arial" font-size="12" fill="#3B82F6" text-anchor="middle">Customer Feedback</text>
+  
+  <!-- Sentiment Indicators -->
+  <!-- Positive -->
+  <circle cx="290" cy="90" r="15" fill="#DCFCE7" stroke="#10B981" stroke-width="1.5"/>
+  <path d="M282 90 L289 97 L298 85" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Negative -->
+  <circle cx="290" cy="140" r="15" fill="#FEE2E2" stroke="#EF4444" stroke-width="1.5"/>
+  <path d="M284 140 L296 140" stroke="#EF4444" stroke-width="2" stroke-linecap="round"/>
+  <path d="M282 146 L298 134" stroke="#EF4444" stroke-width="2" stroke-linecap="round" style="display:none"/>
+  
+  <!-- Neutral -->
+  <circle cx="290" cy="190" r="15" fill="#F3F4F6" stroke="#6B7280" stroke-width="1.5"/>
+  <path d="M284 190 L296 190" stroke="#6B7280" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Analysis Display -->
+  <rect x="90" y="135" width="160" height="85" rx="4" fill="#F8FAFC" stroke="#3B82F6" stroke-width="1.5"/>
+  
+  <!-- Analysis Bars -->
+  <rect x="110" y="150" width="100" height="10" rx="5" fill="#EFF6FF"/>
+  <rect x="110" y="150" width="75" height="10" rx="5" fill="#BFDBFE"/>
+  <text x="100" y="158" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="end">+</text>
+  
+  <rect x="110" y="170" width="100" height="10" rx="5" fill="#EFF6FF"/>
+  <rect x="110" y="170" width="20" height="10" rx="5" fill="#BFDBFE"/>
+  <text x="100" y="178" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="end">-</text>
+  
+  <rect x="110" y="190" width="100" height="10" rx="5" fill="#EFF6FF"/>
+  <rect x="110" y="190" width="40" height="10" rx="5" fill="#BFDBFE"/>
+  <text x="100" y="198" font-family="Arial" font-size="10" fill="#3B82F6" text-anchor="end">~</text>
+  
+  <!-- Results Assessment -->
+  <rect x="110" y="210" width="100" height="5" rx="2.5" fill="#10B981"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <circle cx="350" cy="250" r="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M35 245 L45 255 M35 255 L45 245" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+  <path d="M345 60 L355 70 M345 70 L355 60" stroke="#3B82F6" stroke-width="1" opacity="0.5"/>
+</svg> 

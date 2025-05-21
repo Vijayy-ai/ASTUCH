@@ -3,39 +3,68 @@
   <!-- Background -->
   <rect width="400" height="300" fill="#F8FAFC"/>
   
-  <!-- Main Cloud -->
-  <path d="M280 160C297.673 160 312 145.673 312 128C312 110.327 297.673 96 280 96C279.787 96 279.575 96.0014 279.363 96.0042C273.594 76.7642 255.837 63 235 63C208.49 63 187 84.49 187 111C187 111.545 187.007 112.089 187.022 112.63C187.007 112.753 187 112.876 187 113C187 130.673 201.327 145 219 145H280V160Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Main Cloud Platform -->
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
   
-  <!-- Small Clouds -->
-  <path d="M135 130C141.627 130 147 124.627 147 118C147 111.373 141.627 106 135 106C134.905 106 134.81 106.002 134.715 106.006C132.192 97.9142 124.67 92 116 92C105.507 92 97 100.507 97 111C97 111.25 97.0035 111.5 97.0104 111.749C97.0035 111.832 97 111.916 97 112C97 118.627 102.373 124 109 124H135V130Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Central Cloud -->
+  <path d="M200 120C200 109.6 208.1 101 218.5 100.1C221.5 90.1 230.8 83 242 83C256.4 83 268 94.6 268 109C268 109.7 268 110.3 267.9 111C275.1 113.5 280 120.1 280 128C280 138.5 271.5 147 261 147H211C198.8 147 189 137.2 189 125C189 122.6 189.4 120.3 200 120Z" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
   
-  <path d="M200 200C206.627 200 212 194.627 212 188C212 181.373 206.627 176 200 176C199.905 176 199.81 176.002 199.715 176.006C197.192 167.914 189.67 162 181 162C170.507 162 162 170.507 162 181C162 181.25 162.004 181.5 162.01 181.749C162.004 181.832 162 181.916 162 182C162 188.627 167.373 194 174 194H200V200Z" fill="#E6F0FF" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Smaller Clouds -->
+  <path d="M110 100C110 93.4 115.4 88 122 88C128.6 88 134 93.4 134 100C134 100.3 134 100.7 133.9 101C137.1 102.2 139.5 105.2 139.5 109C139.5 113.7 135.7 117.5 131 117.5H114C109.6 117.5 106 113.9 106 109.5C106 108.3 106.3 107.2 110 100Z" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
   
-  <!-- Server Rack -->
-  <rect x="130" y="180" width="60" height="80" rx="4" fill="white" stroke="#3B82F6" stroke-width="2"/>
-  <rect x="135" y="185" width="50" height="10" rx="2" fill="#BFDBFE"/>
-  <rect x="135" y="200" width="50" height="10" rx="2" fill="#BFDBFE"/>
-  <rect x="135" y="215" width="50" height="10" rx="2" fill="#BFDBFE"/>
-  <rect x="135" y="230" width="50" height="10" rx="2" fill="#BFDBFE"/>
-  <rect x="135" y="245" width="50" height="10" rx="2" fill="#BFDBFE"/>
+  <path d="M330 170C330 163.4 335.4 158 342 158C348.6 158 354 163.4 354 170C354 170.3 354 170.7 353.9 171C357.1 172.2 359.5 175.2 359.5 179C359.5 183.7 355.7 187.5 351 187.5H334C329.6 187.5 326 183.9 326 179.5C326 178.3 326.3 177.2 330 170Z" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
   
-  <!-- Data Transfer -->
-  <path d="M190 210L240 150" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 2"/>
-  <path d="M240 170L190 130" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4 2"/>
-  <circle cx="190" cy="210" r="5" fill="#3B82F6"/>
-  <circle cx="190" cy="130" r="5" fill="#3B82F6"/>
-  <circle cx="240" cy="150" r="5" fill="#3B82F6"/>
-  <circle cx="240" cy="170" r="5" fill="#3B82F6"/>
+  <!-- Server Racks -->
+  <rect x="70" y="140" width="60" height="80" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="80" y="150" width="40" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="165" width="40" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="180" width="40" height="10" rx="2" fill="#BFDBFE"/>
+  <rect x="80" y="195" width="40" height="10" rx="2" fill="#BFDBFE"/>
   
-  <!-- Database -->
-  <ellipse cx="130" cy="80" rx="20" ry="10" fill="white" stroke="#3B82F6" stroke-width="2"/>
-  <path d="M110 80V110C110 115.523 119.402 120 130 120C140.598 120 150 115.523 150 110V80" stroke="#3B82F6" stroke-width="2"/>
-  <path d="M110 95C110 100.523 119.402 105 130 105C140.598 105 150 100.523 150 95" stroke="#3B82F6" stroke-width="1.5"/>
+  <!-- Database Cluster -->
+  <ellipse cx="320" cy="120" rx="20" ry="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <path d="M300 120V140C300 145.5 309 150 320 150C331 150 340 145.5 340 140V120" stroke="#3B82F6" stroke-width="1.5"/>
+  <ellipse cx="320" cy="140" rx="20" ry="10" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
   
-  <!-- Up/Down Arrows -->
-  <path d="M260 120L260 100M260 100L250 110M260 100L270 110" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M280 115L280 135M280 135L270 125M280 135L290 125" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Connection Lines -->
+  <path d="M130 110L180 125" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M240 125L300 120" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M200 147L200 180L150 180" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M320 150L320 220L270 220" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M330 170L320 150" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Computing Nodes -->
+  <rect x="170" y="170" width="100" height="60" rx="4" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <rect x="180" y="180" width="80" height="40" rx="2" fill="#BFDBFE"/>
+  <line x1="180" y1="190" x2="260" y2="190" stroke="#3B82F6" stroke-width="1"/>
+  <line x1="180" y1="200" x2="260" y2="200" stroke="#3B82F6" stroke-width="1"/>
+  <line x1="180" y1="210" x2="260" y2="210" stroke="#3B82F6" stroke-width="1"/>
+  
+  <!-- Icons and Symbols -->
+  <!-- Storage Symbol -->
+  <rect x="92" y="210" width="15" height="8" rx="1" fill="#3B82F6"/>
+  <circle cx="97" cy="214" r="2" fill="white"/>
+  <circle cx="102" cy="214" r="2" fill="white"/>
+  
+  <!-- CPU Symbol -->
+  <rect x="220" y="155" width="12" height="12" rx="1" fill="#3B82F6"/>
+  <rect x="223" y="158" width="6" height="6" rx="1" fill="white"/>
+  
+  <!-- Network Symbol -->
+  <circle cx="210" cy="155" r="6" fill="#3B82F6"/>
+  <line x1="210" y1="149" x2="210" y2="161" stroke="white" stroke-width="1"/>
+  <line x1="204" y1="155" x2="216" y2="155" stroke="white" stroke-width="1"/>
+  
+  <!-- Security Shield -->
+  <path d="M230 155L235 150L240 155V162C240 163.5 237.5 165 235 165C232.5 165 230 163.5 230 162V155Z" fill="#3B82F6"/>
+  <path d="M235 153L233 156L236 158" stroke="white" stroke-width="1" stroke-linecap="round"/>
+  
+  <!-- Decorative Elements -->
+  <path d="M30 30L32 35L37 37L32 39L30 44L28 39L23 37L28 35L30 30Z" fill="#3B82F6"/>
+  <path d="M370 30L372 35L377 37L372 39L370 44L368 39L363 37L368 35L370 30Z" fill="#3B82F6"/>
+  <path d="M370 270L372 275L377 277L372 279L370 284L368 279L363 277L368 275L370 270Z" fill="#3B82F6"/>
+  <path d="M30 270L32 275L37 277L32 279L30 284L28 279L23 277L28 275L30 270Z" fill="#3B82F6"/>
   
   <!-- Title -->
-  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6">Cloud Computing</text>
+  <text x="200" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#3B82F6" text-anchor="middle">Cloud Computing</text>
 </svg> 

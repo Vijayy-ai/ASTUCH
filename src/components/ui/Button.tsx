@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 type ButtonProps = {
   children: React.ReactNode;
-  variant?: 'primary' | 'secondary';
+  variant?: 'primary' | 'secondary' | 'outline';
   href?: string;
   onClick?: () => void;
   className?: string;
@@ -25,6 +25,7 @@ const Button = ({
   const variantClasses = {
     primary: 'bg-blue-600 text-white hover:bg-blue-700 shadow-md hover:shadow-lg',
     secondary: 'bg-white text-blue-600 border border-blue-600 hover:bg-blue-50',
+    outline: 'bg-transparent border-2 border-white text-white hover:bg-white/5 hover:backdrop-blur-sm',
   };
   
   const allClasses = `${baseClasses} ${variantClasses[variant]} ${className}`;

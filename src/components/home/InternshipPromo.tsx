@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { motion } from '@/utils/motion';
-import Section from '@/components/ui/Section';
 import Button from '@/components/ui/Button';
 
 const InternshipPromo = () => {
